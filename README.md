@@ -47,6 +47,7 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 ### 1. ¡Hola mundo!
 
+Creamos un archivo html:
 ```html
 <html>
 <head>
@@ -54,18 +55,26 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 </head>
 <body>
 
-	<script src="HolaMundo.ts"></script>
+	<script src="HolaMundo.js"></script>
 
 </body>
 </html>
 ```
 
-Dentro de HolaMundo.ts:
+Creamos un archivo HolaMundo.ts:
 
 ```typescript
 alert('hello world in TypeScript!');
 ```
+y lo compilamos poniendo en la consola:
 
+```
+tsc C:\ruta del archivo .ts\
+```
+
+Como resultado ontendremos el archivo .js al que llamamos en el anterior html, al abrir el html con un navegador nos mostrara la siguiente ventana:
+
+<img src="imagenes/holamundo.png">
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
 
