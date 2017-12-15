@@ -35,6 +35,7 @@ Para empezar a programar en TypeScript, necesitamos instalar primero Node.js, pr
 <img src="imagenes/DescargaNodeJS.png">
 [Enlace a la página oficial](https://nodejs.org/en/)
 
+
 Una vez instalado abrimos el terminal y escribimos el comando:
 ```
 npm install typescript -g
