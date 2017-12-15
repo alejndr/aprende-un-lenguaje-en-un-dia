@@ -43,6 +43,7 @@ npm install typescript -g
 ```
 
 Si usamos Visual Studio Code no tendremos que seguir pasos adicionales, el mismo reconoce los archivos que creemos con la extension .ts por defecto.
+
 <img src="imagenes/visualstudiocode.png">
 
 [Descargar Visual Studio Code](https://code.visualstudio.com)
