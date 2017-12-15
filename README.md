@@ -15,7 +15,7 @@ El profesor llevará una cajita llena de papelitos con los nombres de distintos 
 Escribe el lenguaje de programación elegido por el grupo.
 
 * TypeScript
-<img src="imagenes/aprendejava.png">
+<img src="imagenes/ts.png">
 
 Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
 
