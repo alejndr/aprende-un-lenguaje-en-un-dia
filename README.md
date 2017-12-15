@@ -36,7 +36,7 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 ### 1. ¡Hola mundo!
 
-'''html
+```html
 <html>
 <head>
 	<title>Hola mundo</title>
@@ -47,13 +47,13 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 </body>
 </html>
-'''
+```
 
 Dentro de HolaMundo.ts:
 
-'''TypeScript
+```typescript
 alert('hello world in TypeScript!');
-'''
+```
 
 
 Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
