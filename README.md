@@ -41,6 +41,10 @@ Una vez instalado abrimos el terminal y escribimos el comando:
 npm install typescript -g
 ```
 
+Si usamos Visual Studio Code no tendremos que seguir pasos adicionales, el mismo reconoce los archivos que creemos con la extension .ts por defecto.
+(visualstudiocode.png)
+[Descargar Visual Studio Code](https://code.visualstudio.com)
+
 ## Poniendo en práctica el lenguaje
 
 Pon en práctica el lenguaje de programación realizando los siguientes ejercicios. Para cada uno de los ejercicios, pega el código fuente de la solución y una captura de pantalla.
