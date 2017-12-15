@@ -1,4 +1,4 @@
-# Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
+﻿# Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
 
 ## Introducción
 
@@ -44,7 +44,10 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 
 ## Información sobre el lenguaje
 
-Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
+TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft, e implementa muchos de los mecanismos más habituales de la programación orientada a objetos, pudiendo extraer grandes beneficios que serán especialmente deseables en aplicaciones grandes, capaces de escalar correctamente durante todo su tiempo de mantenimiento. Este puede ser usado para desarrollar aplicaciones que se ejecutarán en el lado del cliente o del servidor.
+La característica fundamental de TypeScript es que compila en Javascript nativo, por lo que se puede usar en todo proyecto donde este use; y el navegador, o cualquier otra plataforma donde se ejecuta, nunca llegará a enterarse del código original.
+En resumen, TypeScript es lo que se conoce como un "superset" de Javascript, aportando herramientas avanzadas para la programación que traen grandes beneficios a los proyectos.
+La ventaja de los superset es que los lenguajes basados en un estándar evolucionan mucho más lento que las necesidades de los desarrolladores. Entonces surgen estos para expandir un lenguaje, aportando todas las herramientas que no tienen los originales para desarrollar en mejores condiciones.
 
 ## Herramientas de desarrollo
 
