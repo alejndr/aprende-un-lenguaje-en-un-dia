@@ -33,7 +33,8 @@ Indica aquí qué software has tenido que instalar para programar en este lengua
 Para empezar a programar en TypeScript, necesitamos instalar primero Node.js, preferiblemente la version LTS que podemos encontrar en su página oficial:
 
 <img src="imagenes/DescargaNodeJS.png">
-[Enlace a la página oficial](https://nodejs.org/en/)
+
+[Enlace a la página oficial](https://nodejs.org/en)
 
 
 Una vez instalado abrimos el terminal y escribimos el comando:
@@ -42,7 +43,8 @@ npm install typescript -g
 ```
 
 Si usamos Visual Studio Code no tendremos que seguir pasos adicionales, el mismo reconoce los archivos que creemos con la extension .ts por defecto.
-(visualstudiocode.png)
+<img src="imagenes/visualstudiocode.png">
+
 [Descargar Visual Studio Code](https://code.visualstudio.com)
 
 ## Poniendo en práctica el lenguaje
