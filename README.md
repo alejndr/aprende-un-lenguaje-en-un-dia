@@ -30,6 +30,15 @@ La ventaja de los superset es que los lenguajes basados en un estándar evolucio
 
 Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
 
+Para empezar a programar en TypeScript, necesitamos instalar primero Node.js, preferiblemente la version LTS que podemos encontrar en su página oficial:
+
+<img src="imagenes/DescargaNodeJS.png">(https://nodejs.org/en/)
+
+Una vez instalado abrimos el terminal y escribimos el comando:
+```
+npm install typescript -g
+```
+
 ## Poniendo en práctica el lenguaje
 
 Pon en práctica el lenguaje de programación realizando los siguientes ejercicios. Para cada uno de los ejercicios, pega el código fuente de la solución y una captura de pantalla.
