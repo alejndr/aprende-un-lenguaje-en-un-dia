@@ -1,6 +1,6 @@
 ﻿# Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
 
-## Miembros del grupo
+## Miembros del grupo: "Los tipos del Type"
 
 Escribe aquí los miembros del grupo. El primero es el representante o encargado.
 
