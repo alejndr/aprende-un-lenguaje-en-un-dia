@@ -62,6 +62,10 @@ Si usamos Visual Studio Code no tendremos que seguir pasos adicionales, el mismo
 
 Para trabajar con Netbeans en windows tendremos que instalar aparte la consola Cygwin:
 
+<img src="imagenes/netbeans.jpg">
+
+[Descargar Netbeans](https://netbeans.org/)
+
 <img src="imagenes/cygwin.jpg">
 
 [Descargar Cygwin](http://www.cygwin.com/)
