@@ -91,6 +91,39 @@ Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
 
 ### 2. Pirámide
 
+```typescript
+/* Prueba.ts */
+let altura = ~~(prompt());
+//let altura = 5;
+let caracter = "*";
+let cantEsp = 0;
+let cantPint = 0;
+let espacio = " ";
+
+// Operaciones y Salida de Datos
+for (let i = 0; i < altura; i++) {
+
+  cantEsp = altura - i;
+  cantPint = i + (i + 1);
+  
+  // Pintar
+  let pintarEspacios = ""; // Creo una variable que contiene los espacios
+  let pintarAsteriscos = ""; // // Creo una variable que contiene los asteriscos
+  for (let j = 1; j <= cantEsp; j++) {
+    pintarEspacios += " ";// concateno los espacios
+  }
+
+  for (let k = 1; k <= cantPint; k++) {
+    pintarAsteriscos += "*"; // concateno los asteriscos
+  }
+  console.log(pintarEspacios+pintarAsteriscos);
+}
+```
+
+Como resultado en la consola obtendremos: 
+
+<img src="imagenes/piramide.png">
+
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 
 ### 3. Arrays y números aleatorios
@@ -176,7 +209,7 @@ console.log("Array Ordenado: "+pintaArrayFinal);
 
 Como resultado en la consola obtendremos: 
 
-<img src="imagenes/array.png">
+<img src="imagenes/array.jpg">
 
 ## Presentación de resultados
 
