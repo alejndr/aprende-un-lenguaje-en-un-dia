@@ -15,7 +15,7 @@ El profesor llevará una cajita llena de papelitos con los nombres de distintos 
 Escribe el lenguaje de programación elegido por el grupo.
 
 * TypeScript
-<img src="imagenes/ts.png">
+<img src="imagenes/type.png">
 
 Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
 
@@ -87,8 +87,6 @@ Como resultado ontendremos el archivo .js al que llamamos en el anterior html, a
 
 <img src="imagenes/holamundo.png">
 
-Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
-
 ### 2. Pirámide
 
 ```typescript
@@ -124,7 +122,6 @@ Como resultado en la consola obtendremos:
 
 <img src="imagenes/piramide.jpg">
 
-Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 
 ### 3. Arrays y números aleatorios
 
