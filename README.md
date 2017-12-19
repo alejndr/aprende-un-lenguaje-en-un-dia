@@ -15,7 +15,7 @@ El profesor llevará una cajita llena de papelitos con los nombres de distintos 
 Escribe el lenguaje de programación elegido por el grupo.
 
 * TypeScript
-<img src="imagenes/type.png">
+<img src="imagenes/type.png" width="240">
 
 Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
 
@@ -25,6 +25,10 @@ TypeScript es un lenguaje de programación libre y de código abierto desarrolla
 La característica fundamental de TypeScript es que compila en Javascript nativo, por lo que se puede usar en todo proyecto donde este use; y el navegador, o cualquier otra plataforma donde se ejecuta, nunca llegará a enterarse del código original.
 En resumen, TypeScript es lo que se conoce como un "superset" de Javascript, aportando herramientas avanzadas para la programación que traen grandes beneficios a los proyectos.
 La ventaja de los superset es que los lenguajes basados en un estándar evolucionan mucho más lento que las necesidades de los desarrolladores. Entonces surgen estos para expandir un lenguaje, aportando todas las herramientas que no tienen los originales para desarrollar en mejores condiciones.
+Enlaces de las páginas fuentes=
+[Desarrolloweb](https://desarrolloweb.com/articulos/introduccion-a-typescript.html)
+[Microsoft](https://msdn.microsoft.com/es-es/magazine/dn890374.aspx)
+[Wikipedia](https://es.wikipedia.org/wiki/TypeScript)
 
 ## Herramientas de desarrollo
 
