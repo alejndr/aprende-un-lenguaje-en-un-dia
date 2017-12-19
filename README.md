@@ -51,6 +51,16 @@ Si usamos Visual Studio Code no tendremos que seguir pasos adicionales, el mismo
 
 Para trabajar con Netbeans en windows tendremos que instalar aparte la consola Cygwin:
 
+<img src="imagenes/cygwin.jpg">
+
+[Descargar Cygwin](http://www.cygwin.com/)
+
+Necesitaremos tambien instalar el complemento nbm para Netbeans
+
+[Descargar complemento](https://github.com/Everlaw/nbts/releases/download/v2.3.3.0/netbeanstypescript-2.3.3.0.nbm)
+
+Lo instalaremos en Netbeans en el menú Tools > Plugins > Add plugins. Reiniciamos Netbeans y listo.
+
 
 ## Poniendo en práctica el lenguaje
 
