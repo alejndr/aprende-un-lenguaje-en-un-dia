@@ -118,7 +118,11 @@ for (let i = 0; i < altura; i++) {
 }
 ```
 
-Como resultado en la consola obtendremos: 
+Como resultado en la consola primero nos pedira que introduzcamos la altura:
+
+<img src="imagenes/insertar.jpg">
+
+Al aceptar nos mostrara la piramide de asteriscos con la altura dada:
 
 <img src="imagenes/piramide.jpg">
 
