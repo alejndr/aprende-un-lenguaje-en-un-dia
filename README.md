@@ -122,7 +122,7 @@ for (let i = 0; i < altura; i++) {
 
 Como resultado en la consola obtendremos: 
 
-<img src="imagenes/piramide.png">
+<img src="imagenes/piramide.jpg">
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 
@@ -209,7 +209,7 @@ console.log("Array Ordenado: "+pintaArrayFinal);
 
 Como resultado en la consola obtendremos: 
 
-<img src="imagenes/array.jpg">
+<img src="imagenes/Array.jpg">
 
 ## Presentación de resultados
 
