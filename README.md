@@ -15,7 +15,7 @@ El profesor llevará una cajita llena de papelitos con los nombres de distintos 
 Escribe el lenguaje de programación elegido por el grupo.
 
 * TypeScript
-<img src="imagenes/type.png" width="240">
+<img src="imagenes/ts.png">
 
 Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
 
@@ -25,14 +25,8 @@ TypeScript es un lenguaje de programación libre y de código abierto desarrolla
 La característica fundamental de TypeScript es que compila en Javascript nativo, por lo que se puede usar en todo proyecto donde este use; y el navegador, o cualquier otra plataforma donde se ejecuta, nunca llegará a enterarse del código original.
 En resumen, TypeScript es lo que se conoce como un "superset" de Javascript, aportando herramientas avanzadas para la programación que traen grandes beneficios a los proyectos.
 La ventaja de los superset es que los lenguajes basados en un estándar evolucionan mucho más lento que las necesidades de los desarrolladores. Entonces surgen estos para expandir un lenguaje, aportando todas las herramientas que no tienen los originales para desarrollar en mejores condiciones.
-Enlaces de las páginas fuentes=
-[Desarrolloweb](https://desarrolloweb.com/articulos/introduccion-a-typescript.html)
-[Microsoft](https://msdn.microsoft.com/es-es/magazine/dn890374.aspx)
-[Wikipedia](https://es.wikipedia.org/wiki/TypeScript)
 
 ## Herramientas de desarrollo
-
-Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
 
 Para empezar a programar en TypeScript, necesitamos instalar primero Node.js, preferiblemente la version LTS que podemos encontrar en su página oficial:
 
@@ -45,12 +39,18 @@ Una vez instalado abrimos el terminal y escribimos el comando:
 ```
 npm install typescript -g
 ```
+## Visual studio code
 
 Si usamos Visual Studio Code no tendremos que seguir pasos adicionales, el mismo reconoce los archivos que creemos con la extension .ts por defecto.
 
 <img src="imagenes/visualstudiocode.png">
 
 [Descargar Visual Studio Code](https://code.visualstudio.com)
+
+## Netbeans
+
+Para trabajar con Netbeans en windows tendremos que instalar aparte la consola Cygwin:
+
 
 ## Poniendo en práctica el lenguaje
 
@@ -95,7 +95,88 @@ Dada una altura introducida por el usuario, realiza un programa que pinte una pi
 
 ### 3. Arrays y números aleatorios
 
-Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
+```typescript
+// Defino Array
+let conjuntoNumeros = [];
+let contNumInt = 0;
+let totNum = 20;
+// Introducción de datos y coperaciones
+do {
+  let numAle = (Math.random() * 100);
+  let numEntero = ~~numAle; // Casting a entero
+  conjuntoNumeros[contNumInt] = numEntero;
+  contNumInt++;
+} while (contNumInt < totNum);
+
+// Array Desordenado
+let pintaArray = "";
+for (let k = 0; k <= (totNum - 1); k++) {
+  pintaArray += conjuntoNumeros[k] + " ";
+}
+console.log("Array Desordenado: "+pintaArray);
+
+//Array de primos y no primos
+let conjuntoPrimos = [];
+let contadorPrimos = 0;
+let conjuntoNoPrimos = [];
+let contadoNoPrimos = 0;
+let contDivisores = 2;
+
+for (let k = 0; k <= (totNum - 1); k++) {
+  let cifra = conjuntoNumeros[k];
+  contDivisores = 2; // No puede ser 1
+  let pregPrimo = true; //Presupone que el número es primo
+  do {
+    if (cifra % contDivisores == 0 && cifra != contDivisores) {
+      pregPrimo = false; // Si encuentra un divisor: Ya no es primo
+    }
+    contDivisores++;
+  } while (contDivisores < cifra && pregPrimo == false);
+  // Es menor que "<" porque np ùede ser el misom número
+  if (pregPrimo == true) {
+    conjuntoPrimos[contadorPrimos] = cifra;
+    contadorPrimos++;
+  } else {
+    conjuntoNoPrimos[contadoNoPrimos] = cifra;
+    contadoNoPrimos++;
+  }
+}
+
+// Pintar Array Primos
+let pintaArrayPrimos = "";
+for (let k = 0; k <= (contadorPrimos-1); k++) {
+  pintaArrayPrimos += conjuntoPrimos[k] + " ";
+}
+console.log("Array Auxiliar de Primos: "+pintaArrayPrimos);
+
+// Pintar Array No Primos
+let pintaArrayNoPrimos = "";
+for (let k = 0; k <= (contadoNoPrimos-1); k++) {
+  pintaArrayNoPrimos += conjuntoNoPrimos[k] + " ";
+}
+console.log("Array Auxiliar de No Primos: "+pintaArrayNoPrimos);
+
+// Componer Array Final
+let conjuntoFinal = [];
+for (let k = 0; k <= (totNum - 1); k++) {
+  if (k <= (contadorPrimos-1) ) {
+    conjuntoFinal[k] = conjuntoPrimos[k];
+  } else {
+    conjuntoFinal[k] = conjuntoNoPrimos[(k-contadorPrimos)];
+  }
+}
+
+// Pintar Array Final
+let pintaArrayFinal = "";
+for (let k = 0; k <= (totNum - 1); k++) {
+  pintaArrayFinal += conjuntoFinal[k] + " ";
+}
+console.log("Array Ordenado: "+pintaArrayFinal);
+```
+
+Como resultado en la consola obtendremos: 
+
+<img src="imagenes/array.png">
 
 ## Presentación de resultados
 
