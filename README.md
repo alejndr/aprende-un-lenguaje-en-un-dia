@@ -126,9 +126,12 @@ Como resultado ontendremos el archivo .js al que llamamos en el anterior html, a
 
 ```typescript
 /* Prueba.ts */
+alert("Introduce Altura");
 let altura = ~~(prompt());
+alert("Introduce Caracter");
+let caracter = prompt();
 //let altura = 5;
-let caracter = "*";
+//let caracter = "*";
 let cantEsp = 0;
 let cantPint = 0;
 let espacio = " ";
@@ -147,7 +150,7 @@ for (let i = 0; i < altura; i++) {
   }
 
   for (let k = 1; k <= cantPint; k++) {
-    pintarAsteriscos += "*"; // concateno los asteriscos
+    pintarAsteriscos += caracter; // concateno los asteriscos
   }
   console.log(pintarEspacios+pintarAsteriscos);
 }
